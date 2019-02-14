@@ -1,7 +1,7 @@
 # Seeking culm specific promoter sequences for Biotechnological purposes
 
 The project goal to facilitate the automatic search of specific promoter sequences directly into the NCBI Gene Expression Omnibus (GEO) repository. 
-The project is part of a work done in the I Summer Course in Biotechnology at Unifesp - São José dos Campos/São Paulo/Brasil.
+This is part of a work done in the I Summer Course in Biotechnology at Unifesp - São José dos Campos/São Paulo/Brasil.
 
 ## Getting Started
 
