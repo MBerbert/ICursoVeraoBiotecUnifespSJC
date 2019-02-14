@@ -15,18 +15,18 @@ You need the latest version of the R language installed on your computer. You ca
 
 With the version of R properly installed let's go to steps:
 
-Step 1: Install Rtools
+**Step 1: Install Rtools**
 
 Entre nesse link e baixe a última versão do Rtools.
 
-Step 2: Install the R package devtools
+**Step 2: Install the R package devtools**
 
 ```
 #Installing the library
 install.packages ("devtools")
 ```
 
-Step 3: Installing the Bioconductor package
+**Step 3: Installing the Bioconductor package**
 
 This package will install many other dependencies (libraries) and this will take a few minutes depending on the speed of your internet. Remembering that it may require some interactions, be aware of the R terminal in your IDE.
 
@@ -36,7 +36,7 @@ source("https://bioconductor.org/biocLite.R")
 biocLite()
 ```
 
-Step 4: Installing the GEOquery package
+**Step 4: Installing the GEOquery package**
 
 ```
 biocLite("GEOquery")
