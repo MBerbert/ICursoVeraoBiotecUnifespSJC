@@ -1,6 +1,7 @@
 # Seeking culm specific promoter sequences for Biotechnological purposes
 
-The project goal to facilitate the automatic search of specific promoter sequences directly into the NCBI Gene Expression Omnibus (GEO) repository. The project is part of a work done at the I Summer Course in Biotechnology at Unifesp at São José dos Campos.
+The project goal to facilitate the automatic search of specific promoter sequences directly into the NCBI Gene Expression Omnibus (GEO) repository. 
+The project is part of a work done at the I Summer Course in Biotechnology at Unifesp at São José dos Campos.
 
 ## Getting Started
 
@@ -8,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need the latest version of the R language installed on your computer. You can download this [R Language](https://cran.r-project.org).
 
 ```
 Give examples
@@ -16,45 +17,35 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+With the version of R properly installed let's go to steps:
 
-Say what the step will be
+Step 1: Install Rtools
 
-```
-Give the example
-```
+*Entre nesse link e baixe a última versão do Rtools.
 
-And repeat
+Step 2: Install the R package devtools
 
 ```
-until finished
+#Installing the library
+install.packages ("devtools")
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Step 3: Installing the Bioconductor package
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+This package will install many other dependencies (libraries) and this will take a few minutes depending on the speed of your internet. Remembering that it may require some interactions, be aware of the R terminal in your IDE.
 
 ```
-Give an example
+#Installing Bioconductor
+source("https://bioconductor.org/biocLite.R")
+biocLite()
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+Step 4: Installing the GEOquery package
 
 ```
-Give an example
+biocLite("GEOquery")
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -64,17 +55,15 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us. 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Amanda Fanelli**
+* **Alice Martins**
+* **Maycow Berbert** - *MLDGB* - [MBerbert](https://github.com/MBerbert)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 ## License
 
@@ -82,6 +71,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+*“Our world is built on biology and once we begin to understand it, it then becomes a technology”
+― Ryan Bethencourt 
