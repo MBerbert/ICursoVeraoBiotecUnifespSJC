@@ -17,7 +17,7 @@ With the version of R properly installed let's go to steps:
 
 **Step 1: Install Rtools**
 
-Entre nesse link e baixe a última versão do Rtools.
+Download the latest version of [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 
 **Step 2: Install the R package devtools**
 
