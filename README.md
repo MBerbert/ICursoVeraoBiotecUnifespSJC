@@ -66,6 +66,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+To all the professors who contributed to the success of the event. And all the people who came from all over the country and shared unique moments of knowledge.
 
 “Our world is built on biology and once we begin to understand it, it then becomes a technology”
 ― Ryan Bethencourt 
